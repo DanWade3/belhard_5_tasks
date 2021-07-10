@@ -26,7 +26,6 @@ def lets_else(range_val: int) -> int:
     return counter
 
 
-
 if __name__ == '__main__':
     assert lets_else(5) == -5
     assert lets_else(8) == 7

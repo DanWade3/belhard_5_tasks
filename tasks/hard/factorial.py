@@ -11,7 +11,6 @@ n! = 1 * 2 * … * n, где n – это число, а n! – факториа
 """
 
 
-
 def factorial(n: int) -> int:
     if n < 1:
         raise ValueError("n must be more than 0")

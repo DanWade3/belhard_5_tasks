@@ -25,10 +25,10 @@ def what_you_drink(age: int) -> str:
     if age <= 14:
         a = 'можно сок'
         print(a)
-    if 14< age < 18:
+    if 14 < age < 18:
         a = 'можно кока-колу'
         print(a)
-    if 18 <= age <=21:
+    if 18 <= age <= 21:
         a = 'можно пиво'
         print(a)
     if age > 21:

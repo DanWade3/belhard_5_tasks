@@ -38,6 +38,7 @@ def bubble_sort(array: list) -> list:
                 run = True
     return array
 
+
 if __name__ == '__main__':
     assert bubble_sort([2, 1, 5, 4, 7]) == [1, 2, 4, 5, 7]
     assert bubble_sort([2, -5, -3, 3, 1, 2]) == [-5, -3, 1, 2, 2, 3]

@@ -58,15 +58,16 @@ if __name__ == '__main__':
     # TODO написать свой код здесь
     try:
         score = get_score()
-        print("Просим показать ребенка дневник\n")
         if score < 7:
-            raise ValueError(score)
+            raise ValueError(f'{score}')
+        print('Ребенок получил хорошую оценку')
+        gift = random_gift()
     except RuntimeError as exc:
         print(exc)
         punish_dog()
     except ValueError as exc:
-        punish_child()
+        punish_child(exc)
     else:
-        praise(gift)
+        praise(random_gift())
     finally:
         cook_dinner()

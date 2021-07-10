@@ -19,6 +19,7 @@
 ВРЕМЯ СОРТИРОВКИ: в среднем O(n²)
 """
 
+
 def insertion_sort(array: list) -> list:
     for i in range(0, len(array) - 1):
         for j in range(i + 1, 0, -1):
