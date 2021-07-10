@@ -17,6 +17,7 @@ def num_sum(numb: int) -> int:
     result = 0
     for i in range(len(numb)):
         result += int(numb[i])
+
     return result
 
 
