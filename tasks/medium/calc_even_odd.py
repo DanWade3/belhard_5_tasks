@@ -9,9 +9,14 @@ odd - нечетные
 """
 
 
+
 def calc_even_odd(array: list) -> tuple:
-    even = None
-    odd = None
+    even, odd = 0, 0
+    for i in range(len(array)):
+        if array[i] % 2 == 0:
+            even += 1
+        else:
+            odd += 1
     return even, odd
 
 
