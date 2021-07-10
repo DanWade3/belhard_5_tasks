@@ -27,7 +27,7 @@ def hide_card_numbers(card_number: str) -> str:
     if len(card_number) == 16:
         return result
     else:
-        print('Ошибка')
+        return 'Ошибка'
 
 
 if __name__ == '__main__':
